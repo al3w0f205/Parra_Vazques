@@ -10,7 +10,7 @@ int main() {
     printf("Ingrese el numero de estudiantes: ");
     scanf("%d", &estudiantes);
 
-    // Ingresar notas
+   
     for (int i = 0; i < estudiantes; i++) {
         printf("\nEstudiante %d\n", i + 1);
 
@@ -27,7 +27,7 @@ int main() {
         }
     }
 
-    // Mostrar matriz
+  
     printf("\n===== MATRIZ DE NOTAS =====\n");
     printf("Estudiante\tA1\tA2\tA3\n");
 
@@ -41,7 +41,6 @@ int main() {
         printf("\n");
     }
 
-    // Promedio, mayor y menor por estudiante
     printf("\n===== RESULTADOS POR ESTUDIANTE =====\n");
 
     for (int i = 0; i < estudiantes; i++) {
@@ -67,7 +66,7 @@ int main() {
         printf("Nota mas baja: %.2f\n", menor);
     }
 
-    // Promedio, mayor, menor, aprobados y reprobados por asignatura
+   
     printf("\n===== RESULTADOS POR ASIGNATURA =====\n");
 
     for (int j = 0; j < ASIGNATURAS; j++) {
