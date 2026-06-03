@@ -28,7 +28,7 @@ int main() {
     }
 
   
-    printf("\n===== MATRIZ DE NOTAS =====\n");
+    printf("\n==== MATRIZ DE NOTAS ====\n");
     printf("Estudiante\tA1\tA2\tA3\n");
 
     for (int i = 0; i < estudiantes; i++) {
@@ -41,7 +41,7 @@ int main() {
         printf("\n");
     }
 
-    printf("\n===== RESULTADOS POR ESTUDIANTE =====\n");
+    printf("\n==== RESULTADOS POR ESTUDIANTE ====\n");
 
     for (int i = 0; i < estudiantes; i++) {
         float suma = 0;
@@ -99,7 +99,7 @@ int main() {
         printf("Nota mas alta: %.2f\n", mayor);
         printf("Nota mas baja: %.2f\n", menor);
         printf("Aprobados: %d\n", aprobados);
-        printf("Reprobados: %d\n", reprobados);
+        printf("Reprobados %d\n", reprobados);
     }
 
     return 0;
