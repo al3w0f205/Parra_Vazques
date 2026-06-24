@@ -1,2 +1,0 @@
-Direccion: Juan; 20; Av. Prensa ;123; Florida
-Direccion: Ana; 21; Av. Galo Plaza ;543; Inca
